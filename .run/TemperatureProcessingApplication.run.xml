@@ -6,7 +6,6 @@
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/microservices/temperature-processing" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.github.cidarosa.acrsensor.temperature.processing.utils.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
