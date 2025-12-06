@@ -1,4 +1,4 @@
-package com.github.cidarosa.acrsensor.temperature.processing.utils;
+package com.github.cidarosa.acrsensor.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
@@ -15,9 +15,7 @@ public class UUIDv7Utils {
         if(uuid == null){
             return null;
         }
-        //bits do início
-        // remover o bit da versão
-        //utiliza operação com bits, bitwise
+
        long timestamp = uuid.getMostSignificantBits() >>> 16;
 
         return OffsetDateTime.ofInstant(Instant.ofEpochMilli(timestamp), ZoneId.systemDefault());

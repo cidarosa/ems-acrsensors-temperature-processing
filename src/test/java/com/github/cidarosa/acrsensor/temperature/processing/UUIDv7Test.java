@@ -1,7 +1,7 @@
 package com.github.cidarosa.acrsensor.temperature.processing;
 
-import com.github.cidarosa.acrsensor.temperature.processing.utils.IdGenerator;
-import com.github.cidarosa.acrsensor.temperature.processing.utils.UUIDv7Utils;
+import com.github.cidarosa.acrsensor.temperature.processing.common.IdGenerator;
+import com.github.cidarosa.acrsensor.temperature.processing.common.UUIDv7Utils;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

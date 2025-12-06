@@ -1,4 +1,4 @@
-package com.github.cidarosa.acrsensor.temperature.processing.utils;
+package com.github.cidarosa.acrsensor.temperature.processing.common;
 
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.impl.TimeBasedEpochRandomGenerator;
